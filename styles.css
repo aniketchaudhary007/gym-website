@@ -1,0 +1,142 @@
+body{
+display: block;
+  margin: 0;
+  padding: 0;
+  }
+.topcontainer{
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  background-image: url(images/kai2.jpg);
+  min-height: 920px;
+}
+
+.left{
+position: absolute;
+left: 5px;
+top: 10px;
+text-align: center;
+}
+.left img{
+  width:130px;
+}
+
+.mid{
+display:inline-block;
+margin-left: 100px;
+}
+
+.right{
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.down{
+  margin-top:300px;
+}
+  .tr{
+    color: white;
+    margin-left: 10px;
+  }
+.quote{
+  color: white;
+  margin-left: 20px;
+  width: 220px;
+}
+
+.navbar{
+  display: inline-block;
+
+}
+.navbar li{
+
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar li a:hover, .active{
+  text-decoration: underline;
+  color: grey;
+}
+.fitness{
+
+  margin: 210px 20px;
+  padding: 10px 10px;
+  width: 35%;
+  border-radius: 10px;
+
+}
+
+h1{
+  color: red;
+  font-size:25px;
+    font-family: 'Merriweather', serif;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 2px;
+    height: 5px;
+}
+.tag{
+  color: white;
+  padding: 15px;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  text-decoration: underline;
+  height: 110px;
+  width: 110%;
+}
+.middlecontainer{
+  background-color: black;
+  margin-top: -2px;
+}
+.head{
+  text-decoration: underline;
+  font-size: 50px;
+  margin-left: 25px;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+.about{
+  display: block;
+  color: white;
+  margin-left: 25px;
+  font-size: 25px;
+  width: 240px;
+
+}
+
+
+
+.btn {
+background-color:red;
+border-top-left-radius:28px;
+border-top-right-radius:28px;
+border-bottom-right-radius:28px;
+border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.btn:hover {
+	background-color:blue;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
