@@ -1,47 +1,148 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>THE ANIKET FITNESS</title>
-  </head>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-  <body>
-<div class="topcontainer">
 
-<!-- left box for logo -->
-      <div class="left">
+<head>
+  <meta charset="utf-8">
+  <title>THE ANIKET FITNESS</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+<body>
+  <div id="topcontainer" class="topcontainer">
+
+    <!-- left box for logo -->
+    <div class="left">
       <img src="images/logo.jpg" alt="">
       <h1>ANIKET</h1>
       <h1>FITNESS</h1>
-      </div>
-
-      <!-- mid box for navbar -->
-
-      <div class="mid">
-        <ul class="navbar">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">ABOUT YOU</a></li>
-          <li><a href="#">SCHEDULE</a></li>
-          </ul>
     </div>
 
-      <!-- right box for button -->
+    <!-- mid box for navbar -->
 
-      <div class="right">
-    <a href="tel:9760182135" class="btn">Call me</a>
-    <a href="mailto:aniketchaudhary222@gmail.com" class="btn">mail me</a>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#topcontainer">HOME</a></li>
+        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><a href="#register">ABOUT YOU</a></li>
+        <li><a href="#schedule">SCHEDULE</a></li>
+      </ul>
+    </div>
+
+    <!-- right box for button -->
+
+    <div class="right">
+      <a href="tel:9760182135" class="btn">Call me</a>
+      <a href="mailto:aniketchaudhary222@gmail.com" class="btn">mail me</a>
+    </div>
+    <div class="down">
+      <h1 class="tr">TRAINING</h1>
+      <p class="quote">Gives us an outlet for supressed energies created by stress and conditions the body just as exercise.</p>
+    </div>
   </div>
-  <div class="down">
-    <h1 class="tr">TRAINING</h1>
-    <p class="quote">Gives us an outlet for supressed energies created by stress and conditions the body just as exercise.</p>
+  <div class="middlecontainer">
+    <h1 id="aboutus" class="head">ABOUT us</h1>
+    <p class="about"> WE provide the best online fitness training and workouts to make you fit and energetic. </p>
+    <img class="workout" src="images/my.jpg" alt="mypik">
+  </div>
+  <div class="bottomcontainer">
+    <h1 id="schedule" class="schedule">SCHEDULE PROVIDED</h1>
+    <table class="exercise" border="1">
+      <thead>
+        <tr>
+          <th>DAY</th>
+          <th>WORKOUT</th>
+          <th>EXERCISES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Chest</td>
+          <td>8-12 reps dumble fly,press,rod flat,road incline</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Back</td>
+          <td>8-12reps barbell row,underhandpull,swing rows,dumbell rows</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Shoulders</td>
+          <td>8-12reps arnold press,front raise,shoulder press,reverse cable cross </td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Abs</td>
+          <td>8-12 reps leg raise,knee raise,crunches,v-sit</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Legs</td>
+          <td>8-12 reps squat,lateral lunge,duck press,thruster,sumo deadlift</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>Bai & tri</td>
+          <td>8-12 reps ez bar curl,dumbell bi-curl,preacher,diamond pushup,benchdip,cable rope</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Cardio</td>
+          <td>15min running,cycling,100jumps,stretching,</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="bottomcontainer2">
+    <h1 class="schedule">WORKOUT IS THE BEST REMEDI</h1>
+    <div class="showcase">
+      <img src="images/chest.jpg" alt="">
+      <h3>* CHEST DAY</h3>
     </div>
-</div>
-<div class="middlecontainer">
-  <h1 class="head">ABOUT us</h1>
-  <p class="about"> WE provide the best online fitness training and workouts to make you fit and energetic. </p>
-</div>
+    <div class="showcase">
+      <img src="images/back.jpg" alt="">
+      <h3>* BACK DAY</h3>
+    </div>
+    <div class="showcase">
+      <img src="images/shoulder.jpg" alt="">
+      <h3>* SHOULDERS DAY</h3>
+    </div>
+    <div class="showcase">
+      <img src="images/abs.jpg" alt="">
+      <h3>* ABS DAY</h3>
+    </div>
+    <div class="showcase">
+      <img src="images/thai.jpg" alt="">
+      <h3>* LEGS DAY</h3>
+    </div>
+    <div class="showcase">
+      <img src="images/tri.jpg" alt="">
+      <h3>* BAI & TRI DAY</h3>
+    </div>
+    <div class="showcase">
+      <img src="images/cardio.jpg" alt="">
+      <h3>* CARDIO DAY</h3>
+    </div>
+  </div>
+  <div class="endcontainer">
+    <div class="aboutyou">
+      <h1 id="register">GET REGISTERED</h1>
+      <form class="form" action="mailto:aniketchaudhary222@gmail.com" method="post" enctype="text/plain">
+        <label class="label"for="">Your name:</label>
+        <input type="text" name="YourName" value=""><br>
+        <label class="label"for="">Your age:</label>
+        <input type="number" name="age" value=""><br>
+        <label class="label" for="">Your gender:</label>
+        <input type="text" name="gender" value=""><br>
+        <label class="label" for="">Your mobile:</label>
+        <input type="number" name="mobile" value=""><br>
+        <label class="label"for="">Your address:</label>
+        <input type="text" name="address" value=""><br>
+        <input class="submit"type="submit" name="">
+      </form>
+    </div>
+  </div>
+</body>
 
-  </body>
 </html>

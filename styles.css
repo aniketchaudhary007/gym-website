@@ -19,7 +19,9 @@ top: 10px;
 text-align: center;
 }
 .left img{
-  width:130px;
+  width:80px;
+  margin-left: 25px;
+  margin-top: 2px;
 }
 
 .mid{
@@ -82,7 +84,9 @@ h1{
     padding: 10px;
     margin-top: 2px;
     height: 5px;
+    text-decoration:center
 }
+
 .tag{
   color: white;
   padding: 15px;
@@ -111,9 +115,84 @@ h1{
   width: 240px;
 
 }
+.workout{
+  margin-left: 330px;
+  width: 30%;
+  margin-left: 700px;
+  margin-top: -230px;
+  border-radius: 40px;
+  height: 350px;
+}
+.bottomcontainer{
+  background-color: black;
+  margin-top: -2px;
+}
 
+.schedule{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  font-size: 54px;
+}
+.exercise{
+  color: white;
+  margin-left:0;
+  margin-right: 0;
+  margin-top: 35px;
+  font-size: 30px;
+}
+.bottomcontainer2{
+  background-color: black;
+  margin-top: -2px;
+  overflow: hidden;
 
+}
+.showcase{
+  float: left;
+  width: 33%;
+}
+img{
 
+height: 100px;
+margin-left: 50px;
+margin-top: 50px;
+}
+h3{
+margin-top: 5px;
+margin-left: 50px;
+color: blue;
+font-size: 15px;
+}
+.endcontainer{
+  background-color: black;
+  margin-top: -2px;
+  overflow: hidden;
+}
+.aboutyou{
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+.form{
+  color: white;
+  font-size: 20px;
+
+}
+.label{
+text-decoration: underline;
+display: flex;
+margin-left: 20px;
+}
+.submit{
+  margin-top: 10px;
+  color: blue;
+  font-size: 20px;
+  padding-top: 10px;
+}
+input:hover{
+  color: red;
+  background-color: green;
+}
 .btn {
 background-color:red;
 border-top-left-radius:28px;
