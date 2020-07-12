@@ -18,10 +18,10 @@ left: 5px;
 top: 10px;
 text-align: center;
 }
-.left img{
-  width:80px;
+.img{
+  width:85px;
   margin-left: 25px;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .mid{
